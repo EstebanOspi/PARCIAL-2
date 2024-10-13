@@ -28,7 +28,7 @@ footer{
     height: 50px;
 }
 
-.nav-contentlist{
+.contentlist{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,34 +36,34 @@ footer{
     margin: 0.8rem;
 }
 
-.nav-contentlist :hover{
+.contentlist :hover{
     background-color: var(--green);
     color: white;
     font-size: 1.5rem;
 }
 
-.nav-contentlist li{
+.contentlist li{
     list-style: none;
 }
 
-.nav-contentlist a{
+.contentlist a{
     text-decoration: none;
     font-weight: 500;
     color: var(--green);
     font-size: 1rem;
 }
 
-.nav-contentlist .branch-logo{
+.contentlist .logo{
     font-size: 2.5rem;
     padding-left: 1rem;
     font-weight: 400;
 }
 
-.btn-content{
+.boton-content{
     padding-left: 55rem;
 }
 
-.btn-content a{
+.boton-content a{
     background-color: var(--green);
     color: var(--white);
     padding: 0.5rem;
@@ -77,7 +77,7 @@ footer{
     text-align: center;
 }
 
-.main-sectiontext{
+.main-section-text{
     color: var(--white);
     font-size: 1.5rem;
 }
